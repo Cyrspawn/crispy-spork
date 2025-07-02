@@ -7,13 +7,13 @@
   },
 
   "server": {
-    "ip": "sastagojo1.aternos.me",
-    "port": 46441,
+    "ip": "Howwdream.aternos.me",
+    "port": 19755,
     "version": "1.12.1"
   },
 
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 1222,
     "y": 6969,
     "z": 112
@@ -31,7 +31,7 @@
     },
 
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 25,
 
