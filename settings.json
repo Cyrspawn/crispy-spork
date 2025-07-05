@@ -1,14 +1,14 @@
 
 {
   "bot-account": {
-    "username": "secret",
+    "username": "bot",
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "Howwdream.aternos.me",
-    "port": 19755,
+    "ip": "SurvivalSMP_pvp.aternos.me",
+    "port": 29920,
     "version": "1.12.1"
   },
 
@@ -22,7 +22,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "" 
+      "password": "tungutng" 
     }, 
 
     "anti-afk": {
