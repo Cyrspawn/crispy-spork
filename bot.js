@@ -1,114 +1,81 @@
-var _0xbotlogic="\x63\x6f\x6e\x73\x74\x20\x7b\x20\x56\x65\x63\x33\x20\x7d\x20\x3d\x20\x72\x65\x71\x75\x69\x72\x65\x28\x27\x76\x65\x63\x33\x27\x29\x3b\x0a\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x67\x65\x74\x43\x6c\x6f\x73\x65\x73\x74\x50\x6c\x61\x79\x65\x72\x28\x29\x20\x7b\x0a\x20\x20\x63\x6f\x6e\x73\x74\x20\x70\x6c\x61\x79\x65\x72\x73\x20\x3d\x20\x4f\x62\x6a\x65\x63\x74\x2e\x76\x61\x6c\x75\x65\x73\x28\x62\x6f\x74\x2e\x70\x6c\x61\x79\x65\x72\x73\x29\x2e\x66\x69\x6c\x74\x65\x72\x28\x70\x20\x3d\x3e\x20\x70\x2e\x65\x6e\x74\x69\x74\x79\x29\x3b\x0a\x20\x20\x69\x66\x20\x28\x70\x6c\x61\x79\x65\x72\x73\x2e\x6c\x65\x6e\x67\x74\x68\x20\x3d\x3d\x3d\x20\x30\x29\x20\x72\x65\x74\x75\x72\x6e\x20\x6e\x75\x6c\x6c\x3b\x0a\x20\x20\x72\x65\x74\x75\x72\x6e\x20\x70\x6c\x61\x79\x65\x72\x73\x2e\x72\x65\x64\x75\x63\x65\x28\x28\x63\x6c\x6f\x73\x65\x73\x74\x2c\x20\x70\x6c\x61\x79\x65\x72\x29\x20\x3d\x3e\x20\x7b\x0a\x20\x20\x20\x20\x63\x6f\x6e\x73\x74\x20\x64\x69\x73\x74\x20\x3d\x20\x62\x6f\x74\x2e\x65\x6e\x74\x69\x74\x79\x2e\x70\x6f\x73\x69\x74\x69\x6f\x6e\x2e\x64\x69\x73\x74\x61\x6e\x63\x65\x54\x6f\x28\x70\x6c\x61\x79\x65\x72\x2e\x65\x6e\x74\x69\x74\x79\x2e\x70\x6f\x73\x69\x74\x69\x6f\x6e\x29\x3b\x0a\x20\x20\x20\x20\x63\x6f\x6e\x73\x74\x20\x63\x6c\x6f\x73\x65\x73\x74\x44\x69\x73\x74\x20\x3d\x20\x62\x6f\x74\x2e\x65\x6e\x74\x69\x74\x79\x2e\x70\x6f\x73\x69\x74\x69\x6f\x6e\x2e\x64\x69\x73\x74\x61\x6e\x63\x65\x54\x6f\x28\x63\x6c\x6f\x73\x65\x73\x74\x2e\x65\x6e\x74\x69\x74\x79\x2e\x70\x6f\x73\x69\x74\x69\x6f\x6e\x29\x3b\x0a\x20\x20\x20\x20\x72\x65\x74\x75\x72\x6e\x20\x64\x69\x73\x74\x20\x3c\x20\x63\x6c\x6f\x73\x65\x73\x74\x44\x69\x73\x74\x20\x3f\x20\x70\x6c\x61\x79\x65\x72\x20\x3a\x20\x63\x6c\x6f\x73\x65\x73\x74\x3b\x0a\x20\x20\x7d\x29\x3b\x0a\x7d\x0a\x73\x65\x74\x49\x6e\x74\x65\x72\x76\x61\x6c\x28\x28\x29\x20\x3d\x3e\x20\x7b\x0a\x20\x20\x63\x6f\x6e\x73\x74\x20\x74\x61\x72\x67\x65\x74\x20\x3d\x20\x67\x65\x74\x43\x6c\x6f\x73\x65\x73\x74\x50\x6c\x61\x79\x65\x72\x28\x29\x3b\x0a\x20\x20\x69\x66\x20\x28\x21\x74\x61\x72\x67\x65\x74\x29\x20\x72\x65\x74\x75\x72\x6e\x3b\x0a\x20\x20\x62\x6f\x74\x2e\x6c\x6f\x6f\x6b\x41\x74\x28\x74\x61\x72\x67\x65\x74\x2e\x65\x6e\x74\x69\x74\x79\x2e\x70\x6f\x73\x69\x74\x69\x6f\x6e\x2e\x6f\x66\x66\x73\x65\x74\x28\x30\x2c\x20\x31\x2e\x36\x2c\x20\x30\x29\x29\x3b\x0a\x20\x20\x63\x6f\x6e\x73\x74\x20\x61\x63\x74\x69\x6f\x6e\x73\x20\x3d\x20\x5b\x27\x6a\x75\x6d\x70\x27\x2c\x27\x66\x6f\x72\x77\x61\x72\x64\x27\x2c\x27\x62\x61\x63\x6b\x27\x2c\x27\x6c\x65\x66\x74\x27\x2c\x27\x72\x69\x67\x68\x74\x27\x5d\x3b\x0a\x20\x20\x63\x6f\x6e\x73\x74\x20\x72\x61\x6e\x64\x6f\x6d\x41\x63\x74\x69\x6f\x6e\x20\x3d\x20\x61\x63\x74\x69\x6f\x6e\x73\x5b\x4d\x61\x74\x68\x2e\x66\x6c\x6f\x6f\x72\x28\x4d\x61\x74\x68\x2e\x72\x61\x6e\x64\x6f\x6d\x28\x29\x20\x2a\x20\x61\x63\x74\x69\x6f\x6e\x73\x2e\x6c\x65\x6e\x67\x74\x68\x29\x5d\x3b\x0a\x20\x20\x62\x6f\x74\x2e\x73\x65\x74\x43\x6f\x6e\x74\x72\x6f\x6c\x53\x74\x61\x74\x65\x28\x72\x61\x6e\x64\x6f\x6d\x41\x63\x74\x69\x6f\x6e\x2c\x20\x74\x72\x75\x65\x29\x3b\x0a\x20\x20\x73\x65\x74\x54\x69\x6d\x65\x6f\x75\x74\x28\x28\x29\x20\x3d\x3e\x20\x7b\x0a\x20\x20\x20\x20\x62\x6f\x74\x2e\x73\x65\x74\x43\x6f\x6e\x74\x72\x6f\x6c\x53\x74\x61\x74\x65\x28\x72\x61\x6e\x64\x6f\x6d\x41\x63\x74\x69\x6f\x6e\x2c\x20\x66\x61\x6c\x73\x65\x29\x3b\x0a\x20\x20\x7d\x2c\x20\x33\x30\x30\x20\x2b\x20\x4d\x61\x74\x68\x2e\x72\x61\x6e\x64\x6f\x6d\x28\x29\x20\x2a\x20\x35\x30\x30\x29\x3b\x0a\x7d\x2c\x20\x32\x30\x30\x30\x29\x3b";
+// Deobfuscated Bot Code
 
-eval(_0xbotlogic);
+const express = require("express"); const app = express(); const port = 3000;
 
+app.get("/", (req, res) => { return res.sendFile("index.html"); });
 
-const express = require(_0xdb32[0]);
-const app = express();
-const port = 3000;
+app.listen(port, () => { return console.log(Server running on port 3000); });
 
-app[_0xdb32[4]](_0xdb32[1], (_0xe1bfx4, _0xe1bfx5) => {
-  return _0xe1bfx5[_0xdb32[3]](_0xdb32[2]);
-});
+const mineflayer = require("mineflayer"); const { Movements, pathfinder, GoalBlock } = require("mineflayer-pathfinder"); const config = require("./config.json");
 
-app[_0xdb32[7]](port, () => {
-  return console[_0xdb32[6]](`${_0xdb32[5]}`);
-});
+function createBot() { const bot = mineflayer.createBot({ username: config.auth.email, password: config.auth.password, auth: config.auth.type, host: config.server.host, port: config.server.port, version: config.server.version });
 
-const mineflayer = require(_0xdb32[8]);
-const Movements = require(_0xdb32[10])[_0xdb32[9]];
-const pathfinder = require(_0xdb32[10])[_0xdb32[11]];
-const { GoalBlock } = require(_0xdb32[10])[_0xdb32[12]];
-const config = require(_0xdb32[13]);
+bot.loadPlugin(pathfinder); const defaultMove = require("mineflayer-pathfinder").Movements; const movements = new Movements(bot, bot.physics);
 
-function createBot() {
-  const _0xe1bfxb = mineflayer[_0xdb32[22]]({
-    username: config[_0xdb32[15]][_0xdb32[14]],
-    password: config[_0xdb32[15]][_0xdb32[16]],
-    auth: config[_0xdb32[15]][_0xdb32[17]],
-    host: config[_0xdb32[19]][_0xdb32[18]],
-    port: config[_0xdb32[19]][_0xdb32[20]],
-    version: config[_0xdb32[19]][_0xdb32[21]]
-  });
+bot.physicsEnabled = false;
 
-  _0xe1bfxb[_0xdb32[23]](pathfinder);
-  const _0xe1bfxc = require(_0xdb32[24])(_0xe1bfxb[_0xdb32[21]]);
-  const _0xe1bfxd = new Movements(_0xe1bfxb, _0xe1bfxc);
+bot.on("spawn", () => { console.log("Bot spawned");
 
-  _0xe1bfxb[_0xdb32[26]][_0xdb32[25]] = false;
+// Autologin
+if (config.features.autologin.enabled) {
+  console.log("Autologin enabled");
+  const password = config.features.autologin.password;
 
-  _0xe1bfxb[_0xdb32[59]](_0xdb32[27], () => {
-    console[_0xdb32[6]](_0xdb32[28]);
+  setTimeout(() => {
+    bot.chat(`/register ${password} ${password}`);
+    bot.chat(`/login ${password}`);
+  }, 500);
 
-    if (config[_0xdb32[31]][_0xdb32[30]][_0xdb32[29]]) {
-      console[_0xdb32[6]](_0xdb32[32]);
-      var _0xe1bfxe = config[_0xdb32[31]][_0xdb32[30]][_0xdb32[16]];
-
-      setTimeout(() => {
-        _0xe1bfxb[_0xdb32[36]](`${_0xdb32[33]}${_0xe1bfxe}${_0xdb32[34]}${_0xe1bfxe}${_0xdb32[35]}`);
-        _0xe1bfxb[_0xdb32[36]](`${_0xdb32[37]}${_0xe1bfxe}${_0xdb32[35]}`);
-      }, 500);
-
-      console[_0xdb32[6]](`${_0xdb32[38]}`);
-    }
-
-    if (config[_0xdb32[31]][_0xdb32[39]][_0xdb32[29]]) {
-      console[_0xdb32[6]](_0xdb32[40]);
-      var _0xe1bfxf = config[_0xdb32[31]][_0xdb32[39]][_0xdb32[41]];
-
-      if (config[_0xdb32[31]][_0xdb32[39]][_0xdb32[42]]) {
-        var _0xe1bfx10 = config[_0xdb32[31]][_0xdb32[39]][_0xdb32[43]];
-        let _0xe1bfx11 = 0;
-
-        setInterval(() => {
-          _0xe1bfxb[_0xdb32[36]](`${_0xdb32[35]}${_0xe1bfxf[_0xe1bfx11]}${_0xdb32[35]}`);
-          _0xe1bfx11 = (_0xe1bfx11 + 1) % _0xe1bfxf[_0xdb32[44]];
-        }, _0xe1bfx10 * 1000);
-      } else {
-        _0xe1bfxf[_0xdb32[45]]((_0xe1bfx12) => {
-          _0xe1bfxb[_0xdb32[36]](_0xe1bfx12);
-        });
-      }
-    }
-
-    const _0xe1bfx13 = config[_0xdb32[46]];
-    if (_0xe1bfx13[_0xdb32[29]]) {
-      console[_0xdb32[6]](`${_0xdb32[47]}${_0xe1bfx13[_0xdb32[48]]}${_0xdb32[49]}${_0xe1bfx13[_0xdb32[50]]}${_0xdb32[49]}${_0xe1bfx13[_0xdb32[51]]}${_0xdb32[52]}`);
-      _0xe1bfxb[_0xdb32[11]][_0xdb32[53]](_0xe1bfxd);
-      _0xe1bfxb[_0xdb32[11]][_0xdb32[54]](new GoalBlock(_0xe1bfx13[_0xdb32[48]], _0xe1bfx13[_0xdb32[50]], _0xe1bfx13[_0xdb32[51]]));
-    }
-
-    if (config[_0xdb32[31]][_0xdb32[55]][_0xdb32[29]]) {
-      _0xe1bfxb[_0xdb32[57]](_0xdb32[56], true);
-      if (config[_0xdb32[31]][_0xdb32[55]][_0xdb32[58]]) {
-        _0xe1bfxb[_0xdb32[57]](_0xdb32[58], true);
-      }
-    }
-  });
-
-  _0xe1bfxb[_0xdb32[64]](_0xdb32[60], () => {
-    console[_0xdb32[6]](`${_0xdb32[61]}${_0xe1bfxb[_0xdb32[62]][_0xdb32[46]]}${_0xdb32[63]}`);
-  });
-
-  _0xe1bfxb[_0xdb32[64]](_0xdb32[65], () => {
-    console[_0xdb32[6]](`${_0xdb32[66]}${_0xe1bfxb[_0xdb32[62]][_0xdb32[46]]}${_0xdb32[35]}`, _0xdb32[67]);
-  });
-
-  if (config[_0xdb32[31]][_0xdb32[68]]) {
-    _0xe1bfxb[_0xdb32[64]](_0xdb32[69], () => {
-      setTimeout(() => {
-        createBot();
-      }, config[_0xdb32[31]][_0xdb32[70]]);
-    });
-  }
-
-  _0xe1bfxb[_0xdb32[64]](_0xdb32[71], (_0xe1bfx14) => {
-    return console[_0xdb32[6]](_0xdb32[72], `${_0xdb32[73]}${_0xe1bfx14}${_0xdb32[35]}`, _0xdb32[67]);
-  });
-
-  _0xe1bfxb[_0xdb32[64]](_0xdb32[74], (_0xe1bfx15) => {
-    return console[_0xdb32[6]](`${_0xdb32[75]}${_0xe1bfx15[_0xdb32[76]]}${_0xdb32[35]}`, _0xdb32[67]);
-  });
+  console.log(`Login/Register attempted with password`);
 }
 
+// Auto message
+if (config.features.autosay.enabled) {
+  console.log("Autosay enabled");
+  const messages = config.features.autosay.messages;
+
+  if (config.features.autosay.repeat) {
+    const interval = config.features.autosay.interval;
+    let index = 0;
+
+    setInterval(() => {
+      bot.chat(`${messages[index]}`);
+      index = (index + 1) % messages.length;
+    }, interval * 1000);
+  } else {
+    messages.forEach((msg) => {
+      bot.chat(msg);
+    });
+  }
+}
+
+// Go to location
+const goal = config.goto;
+if (goal.enabled) {
+  console.log(`Going to X:${goal.x} Y:${goal.y} Z:${goal.z}`);
+  bot.pathfinder.setMovements(movements);
+  bot.pathfinder.setGoal(new GoalBlock(goal.x, goal.y, goal.z));
+}
+
+// Autoeat
+if (config.features.autoeat.enabled) {
+  bot.options.start = true;
+  if (config.features.autoeat.priority) {
+    bot.options.priority = true;
+  }
+}
+
+});
+
+bot.on("end", () => { console.log(Bot ${bot.username} disconnected); });
+
+bot.on("death", () => { console.log(Killed: ${bot.username}); });
+
+// Auto-respawn if (config.features.respawn) { bot.on("respawn", () => { setTimeout(() => { createBot(); }, config.features.timeout); }); }
+
+bot.on("error", (err) => { return console.log("Error:", ${err}); });
+
+bot.on("kicked", (reason) => { return console.log(Kicked: ${reason}); }); }
+
 createBot();
+
