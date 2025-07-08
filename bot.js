@@ -1,3 +1,4 @@
+const Vec3 = require('vec3'); // ✅ Add this at the top
 const mineflayer = require('mineflayer');
 const config = require('./settings.json');
 
