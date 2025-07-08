@@ -4,7 +4,7 @@ const express = require("express"); const app = express(); const port = 3000;
 
 app.get("/", (req, res) => { return res.sendFile("index.html"); });
 
-app.listen(port, () => { return console.log(Server running on port 3000); });
+app.listen(port, () => { return console.log("Server running on port 3000"); });
 
 const mineflayer = require("mineflayer"); const { Movements, pathfinder, GoalBlock } = require("mineflayer-pathfinder"); const config = require("./config.json");
 
