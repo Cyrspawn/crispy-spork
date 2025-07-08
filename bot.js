@@ -67,8 +67,7 @@ if (config.features.autoeat.enabled) {
 
 });
 
-bot.on("end", () => { console.log(Bot ${bot.username} disconnected); });
-
+bot.on("end", () => { console.log(`Bot ${bot.username} disconnected`); });
 bot.on("death", () => { console.log(Killed: ${bot.username}); });
 
 // Auto-respawn if (config.features.respawn) { bot.on("respawn", () => { setTimeout(() => { createBot(); }, config.features.timeout); }); }
